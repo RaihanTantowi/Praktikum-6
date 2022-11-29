@@ -4,14 +4,15 @@ public class Segitiga extends BangunDatar {
     private int alas;
     private int tinggi;
 
-    public Segitiga(int alas, int tinggi) {
+    public Segitiga(String warna, int alas, int tinggi) {
+        super.warna = warna;
         this.alas = alas;
         this.tinggi = tinggi;
     }
 
     @Override
     public void gambar() {
-        System.out.println("Gambar Segitiga");
+        System.out.println("Gambar Segitiga\t: "+getWarna());
     }
 
     @Override

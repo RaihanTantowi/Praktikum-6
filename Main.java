@@ -3,13 +3,13 @@ package AbstractClass;
 public class Main {
     public static void main(String[] args) {
         // membuat objek BangunDatar dari class Lingkaran
-        BangunDatar Ling = new Lingkaran(200);
+        BangunDatar Ling = new Lingkaran("Biru", 200);
 
         // membuat objek BangunDatar dari class Segitiga
-        BangunDatar Seg = new Segitiga(80, 40);
+        BangunDatar Seg = new Segitiga("Coklat",80, 40);
 
         // membuat objek BangunDatar dari class Persegi
-        BangunDatar Pers = new Persegi(50, 60);
+        BangunDatar Pers = new Persegi("Kuning", 50, 60);
 
         /* memanggil method gambar & luas bangun datar */
         System.out.println("==========================");
