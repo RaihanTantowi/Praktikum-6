@@ -1,4 +1,4 @@
-# Tugas Pertemuan 6
+# Tugas Pertemuan 10
 ## Pemrograman Orientasi Objek
 
 ```sh
